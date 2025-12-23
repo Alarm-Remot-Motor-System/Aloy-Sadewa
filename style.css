@@ -1,0 +1,32 @@
+/* Reset */
+* { margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif; }
+
+body { background:#121212; color:#fff; line-height:1.6; }
+
+/* Hero Section */
+.hero { background:#000 url('images/IMG-20251223-WA0002.jpg') center/cover no-repeat; height:60vh; display:flex; align-items:center; justify-content:center; text-align:center; padding:0 20px; }
+.hero h1 { font-size:2rem; color:#FFD700; margin-bottom:10px; }
+.hero p { font-size:1.2rem; margin-bottom:20px; }
+.btn-wa { background:#25D366; color:#fff; padding:10px 20px; text-decoration:none; border-radius:5px; transition:0.3s; }
+.btn-wa:hover { background:#128C7E; }
+
+/* Features */
+.features { padding:50px 20px; text-align:center; }
+.features h2 { font-size:2rem; color:#FFD700; margin-bottom:30px; }
+.feature-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap:20px; }
+.feature-card { background:#1E1E1E; padding:20px; border-radius:10px; transition:0.3s; }
+.feature-card:hover { background:#333; transform:translateY(-5px); }
+
+/* Technology */
+.technology { padding:50px 20px; }
+.technology h2 { font-size:2rem; color:#FFD700; margin-bottom:20px; }
+.technology ul { list-style: disc; padding-left:20px; }
+
+/* Footer */
+footer { text-align:center; padding:20px; background:#000; margin-top:20px; color:#FFD700; }
+
+/* Responsive */
+@media(max-width:600px){
+  .hero h1 { font-size:1.5rem; }
+  .hero p { font-size:1rem; }
+}
